@@ -82,7 +82,7 @@
   }
   
   .sidebar:hover {
-    background-color: #7ed6df;
+    background-color: #c47edf;
   }
   
   .rps {
@@ -140,11 +140,8 @@
   }
   
   
-  @media (max-width: 900px) {
-    .wrap {
-      flex-direction: column;
-    }
-    .main, .sidebar {
-      flex: 1 1 auto;
-    }
-  }
+  .rules.pic {
+    width: 12px;  
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle; 
